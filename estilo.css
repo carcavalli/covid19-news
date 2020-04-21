@@ -1,0 +1,265 @@
+/* CSS-TOPOINICIO */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {height:100%;}
+
+.geral {
+    position:relative;
+    max-width:3840px;
+}
+
+#corpoCabecalho{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+header{
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(48, 48, 48) 100%);
+    padding: 5px 0;
+}
+
+
+#subTopo{
+  background: rgb(255, 91, 91);
+  color: white;
+  text-align: center;  
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  font-family: Gobold Uplow, sans-serif;
+  font-weight: bold;
+}
+
+
+#logoPrincipal{
+    max-width: 300px;
+}
+
+.menu-header{
+    margin-right: 60px;
+    margin-top: 5px;
+    font-family: Gobold Uplow, sans-serif;
+    font-size: 18px;
+    word-spacing: normal;
+    float: right;
+}
+
+.menu-header li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding: 5px 13px;
+    text-align: center;
+    font-family: Gobold Uplow, sans-serif;
+}
+
+.menu-header a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-header a:hover{
+    color: rgb(255, 91, 91);
+}
+/* CSS-TOPOFIM */
+
+/* CSS - Notícias */
+#tituloPagina {
+  color: rgb(95, 95, 95);
+  text-align: left;
+  margin: 20px;
+  font-size: 20px;
+  padding-top: 5px;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 1px 0px 1px rgb(196, 196, 196);
+  animation-name: surgeTitulo;
+  font-weight: lighter;
+}
+
+.grid-container {
+    margin-top: 50px;
+    background-size: cover;
+    background: no-repeat center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+  }
+  
+  .grid-container > div {
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  .descDestaque{
+    font-family: sans-serif;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: center;
+    color: #949494;
+    font-weight: lighter;
+    display: inline-block;
+  }
+
+  .descDestaque:hover {
+    color: rgb(0, 0, 0);
+  }
+
+  h3{
+    font-size: 15px;
+    color: #424242;
+    text-rendering: optimizeLegibility;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    padding-bottom: 8px;
+    padding-top: 4px;
+  }
+
+
+.imgDestaque{
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.imgDestaque:hover {
+        opacity: 60%; 
+        transition: opacity 1s;
+}
+
+iframe{
+  border-radius: 5px;
+}
+
+#LinhaCategorias{
+  border: 3px solid #246493;
+}
+/* CSS - NotíciasFIM */
+
+
+/* CSS - RODAPÉ */
+.socials {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer {
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(48, 48, 48) 100%);
+    bottom:0;
+    width:100%;
+  }
+  
+  .social {
+    padding: 10px 15px;
+  }
+  
+  .footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+/* CSS - RODAPÉFIM */
+
+/* CSS - SOBRE */
+
+.sobre {
+  margin-top: -10px;
+  margin-bottom: -53px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: auto 1000px;
+
+}
+
+.sobre > div {
+  text-align: left;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+
+#texto{
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+#titulo{
+  color: rgb(255, 91, 91);
+}
+
+#titulo{
+  color: rgb(255, 91, 91);
+  margin-top: -15px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  font-weight: lighter;
+}
+
+#textoFabio{
+  font-family: sans-serif;
+  color: #424242;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+/* CSS - FORMULÁRIO */
+ 
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    color: #adadad;
+    font-family: sans-serif;
+  }
+  
+  input[type=email], email {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+    color: #adadad;
+    font-family: sans-serif;
+  }
+  
+  input[type=submit] {
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(48, 48, 48) 100%);
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 130px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
